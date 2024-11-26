@@ -23,30 +23,30 @@ public class Listacontactos {
         
     }
     
-    public Persona buscar(String busc){
-        int bus = Integer.parseInt(busc);
-        persona=lista.get(bus);
+    public Persona buscar(String buscar){
+        int Buscar = Integer.parseInt(buscar);
+        persona=lista.get(Buscar);
         return persona;
     }
     
-    public void eliminar(String busc)
+    public void eliminar(String buscar)
     {
-        int bus = Integer.parseInt(busc);
-        lista.remove(bus);
+        int Buscar = Integer.parseInt(buscar);
+        lista.remove(Buscar);
         JOptionPane.showMessageDialog(null, "Eelimiando");
         
     }
     
-    public void editar (String busc,String nom,String ape, String id, String ed, String sex)
+    public void editar (String buscar,String nombre,String apellido, String id, String edad, String sexo)
     {
-        int bus = Integer.parseInt(busc);
+        int Buscar = Integer.parseInt(buscar);
         persona = new Persona();
-        persona.setNombre(nom);
-        persona.setApellido(ape);
+        persona.setNombre(nombre);
+        persona.setApellido(apellido);
         persona.setIdentificacion(id);
-        persona.setEdad(ed);
-        persona.setSexo(sex);
-        lista.set(bus,persona);
+        persona.setEdad(edad);
+        persona.setSexo(sexo);
+        lista.set(Buscar,persona);
         JOptionPane.showMessageDialog(null, "Editado");
         
         
