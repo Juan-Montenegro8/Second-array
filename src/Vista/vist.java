@@ -30,7 +30,7 @@ public class vist extends javax.swing.JFrame {
         btneditar = new javax.swing.JButton();
         btneliminar = new javax.swing.JButton();
         btnBorrartodo = new javax.swing.JButton();
-        jPultimacapa = new javax.swing.JPanel();
+        jPterceracapa = new javax.swing.JPanel();
         jLBuscar = new javax.swing.JLabel();
         txtbuscar = new javax.swing.JTextField();
         btnbuscar = new javax.swing.JButton();
@@ -142,7 +142,7 @@ public class vist extends javax.swing.JFrame {
                 .addContainerGap(52, Short.MAX_VALUE))
         );
 
-        jPultimacapa.setBackground(new java.awt.Color(51, 255, 102));
+        jPterceracapa.setBackground(new java.awt.Color(51, 255, 102));
 
         jLBuscar.setFont(new java.awt.Font("Trebuchet MS", 1, 24)); // NOI18N
         jLBuscar.setText("Buscar");
@@ -154,8 +154,8 @@ public class vist extends javax.swing.JFrame {
             }
         });
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPultimacapa);
-        jPultimacapa.setLayout(jPanel3Layout);
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPterceracapa);
+        jPterceracapa.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
@@ -185,7 +185,7 @@ public class vist extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPultimacapa, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPterceracapa, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPsegundacapa, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -193,7 +193,7 @@ public class vist extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPultimacapa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jPterceracapa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jPsegundacapa, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
@@ -293,7 +293,7 @@ public class vist extends javax.swing.JFrame {
     private javax.swing.JLabel jLSexo;
     private javax.swing.JPanel jPprimeracapa;
     private javax.swing.JPanel jPsegundacapa;
-    private javax.swing.JPanel jPultimacapa;
+    private javax.swing.JPanel jPterceracapa;
     private javax.swing.JTextField txtapellido;
     private javax.swing.JTextField txtbuscar;
     private javax.swing.JTextField txtedad;
